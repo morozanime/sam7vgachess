@@ -21,13 +21,12 @@ CSRC	+=	$(SRC_DIR)/at91lib/peripherals/pit/pit.c
 CSRC	+=	$(SRC_DIR)/at91lib/peripherals/tc/tc.c
 CSRC	+=	$(SRC_DIR)/at91lib/utility/trace.c
 CSRC	+=	$(SRC_DIR)/at91lib/peripherals/spi/spi.c
-#CSRC	+=	$(SRC_DIR)/life.c
-#CSRC	+=	$(SRC_DIR)/myLCD.c
 CSRC	+=	$(SRC_DIR)/8X8WIN1251.c
 CSRC	+=	$(SRC_DIR)/chess.c
 CSRC	+=	$(SRC_DIR)/chess48.c
 CSRC	+=	$(SRC_DIR)/validate.c
 CSRC	+=	$(SRC_DIR)/ps2mouse.c
+CSRC	+=	$(SRC_DIR)/vga.c
 
 #--------------------------------------------------------------------
 OBJ	= $(CSRC:.c=.o) $(ASRC:.s=.o)

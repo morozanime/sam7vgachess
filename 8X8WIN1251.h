@@ -8,7 +8,7 @@
 #ifndef _8X8WIN1251_H_
 #define _8X8WIN1251_H_
 
-#include	"main.h"
+#include	"common.h"
 
 extern const uint8_t font8x8win1251[];
 

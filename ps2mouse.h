@@ -7,7 +7,7 @@
 
 #ifndef PS2MOUSE_H_
 #define PS2MOUSE_H_
-
+#include "common.h"
 extern void ps2Init(void);
 extern void ps2Write(uint8_t byte);
 extern uint8_t ps2Read(void);
